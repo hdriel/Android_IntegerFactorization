@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Primes</string>
+    <string name="app_name_title">המספר ומחלקיו</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">אודות</string>
+    <string name="title">פירוק מספרים למספרים ראשוניים</string>
+    <string name="enter_number">הכנס מספר שלם:</string>
+    <string name="hint"></string>    
+ 	<string name="btn_str">בדוק</string>
+ 	<string name="t1">מבצע פירוק ראשוני עבור המספר: </string>
+ 	<string name="t2">תצוגה לפירוק ראשוני:</string>
+ 	<string name="t3">כמות המחלקים השונים הם: </string>
+ 	<string name="t4">המחלקים השונים הם: </string>
+ 	<string name="t5">האם המספר הוא מספר משוכלל? </string>
+ 	<string name="t6">סכום המחלקים השונים כולל המספר עצמו: </string>
+ 	<string name="t7">סכום המחלקים השונים לא כולל המספר עצמו: </string>
+ 	<string name="ans"> </string>
+ 	
+</resources>

@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+     android:id="@+id/main_layout"
+    >
+    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:gravity="center" />
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center"
+    android:layout_weight="0.5"
+    >
+    
+     <Button
+        android:id="@+id/btn_check"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/magnifier_red"/>
+
+     
+
+    <EditText
+        android:id="@+id/edit_text_input_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_number" />
+   
+    
+</LinearLayout>
+
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:layout_weight="1"
+    >  
+<TextView
+         android:id="@+id/tv_show_pirok"
+         android:layout_weight="0.5"
+         android:gravity="right"
+         android:textSize="22sp"
+         android:textStyle="bold"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/ans" />
+
+<TextView
+         android:id="@+id/tv_title_show_pirok"
+         android:layout_weight="0.5"
+         android:gravity="right"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/t2" />
+
+</LinearLayout>
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:layout_weight="1"
+    >  
+
+
+
+<TextView
+         android:id="@+id/tv_amount_divides"
+         android:layout_weight="0.5"
+         android:gravity="right"
+         android:textSize="15sp"
+         android:textStyle="bold"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/ans" />
+
+<TextView
+         android:id="@+id/tv_title_amount_divides"
+         android:layout_weight="0.5"
+         android:gravity="right"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/t3" />
+
+
+</LinearLayout>
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+     android:layout_weight="1"
+    >  
+
+<TextView
+         android:id="@+id/tv_title_divides"
+         android:layout_weight="0.2"
+         android:gravity="right"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/t4" />
+
+<TextView
+         android:id="@+id/tv_divides_general"
+         android:layout_weight="0.2"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:gravity="center"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/ans" />
+<ScrollView 
+    android:layout_weight="0.8"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:orientation="horizontal"
+    >
+        
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal" 
+    > 
+        
+    <TextView
+         android:id="@+id/tv_divides"
+         android:layout_weight="0.5"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:gravity="center"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="@string/ans" />
+    
+    </LinearLayout>
+    
+</ScrollView>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:layout_weight="1"
+    >  
+<TextView
+         android:id="@+id/tv_perfect_number"
+         android:layout_weight="0.5"
+         android:gravity="right"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/ans" />
+
+<TextView
+         android:id="@+id/tv_title_perfect_number"
+         android:layout_weight="0.5"
+         android:gravity="right"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/t5" />
+
+</LinearLayout>
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:layout_weight="1"
+    >  
+<TextView
+         android:id="@+id/tv_sum_div"
+         android:layout_weight="0.2"
+         android:gravity="right"
+         android:textSize="22sp"
+         android:textStyle="bold"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/ans" />
+
+<TextView
+         android:id="@+id/tv_title_div"
+         android:layout_weight="0.8"
+         android:gravity="right"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/t6" />
+
+</LinearLayout>
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:layout_weight="1"
+    >  
+<TextView
+         android:id="@+id/tv_sum_div_wo_number"
+         android:layout_weight="0.2"
+         android:gravity="right"
+         android:textSize="22sp"
+         android:textStyle="bold"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/ans" />
+
+<TextView
+         android:id="@+id/tv_title_sum_div_wo_number"
+         android:layout_weight="0.8"
+         android:gravity="right"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/t7" />
+
+</LinearLayout>
+
+</LinearLayout>
